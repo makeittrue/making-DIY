@@ -12,14 +12,14 @@
 
 ##### 首页
 
-![首页](making-DIY/images/首页.png)
+![首页](https://github.com/makeittrue/making-DIY/blob/1019test1/images/%E9%A6%96%E9%A1%B5.png?raw=true)
 
 ##### DIY
 
-![DIY](making-DIY/images/DIY.png)
+![DIY](https://github.com/makeittrue/making-DIY/blob/1019test1/images/DIY.png?raw=true)
 
 ##### 个人中心
 
-![个人中心](making-DIY/images/个人中心.png)
+![个人中心](https://github.com/makeittrue/making-DIY/blob/1019test1/images/%E4%B8%AA%E4%BA%BA%E4%B8%AD%E5%BF%83.png?raw=true)
 
 ### 
