@@ -12,14 +12,14 @@
 
 ##### 首页
 
-![首页](\首页.png)
+![首页](making-DIY/images/首页.png)
 
 ##### DIY
 
-![DIY](\DIY.png)
+![DIY](making-DIY/images/DIY.png)
 
 ##### 个人中心
 
-![个人中心](\个人中心.png)
+![个人中心](making-DIY/images/个人中心.png)
 
 ### 
