@@ -12,14 +12,14 @@
 
 ##### 首页
 
-![首页](C:\Users\hanbai\Desktop\微信小程序开发集合\首页.png)
+![首页](\首页.png)
 
 ##### DIY
 
-![DIY](C:\Users\hanbai\Desktop\微信小程序开发集合\DIY.png)
+![DIY](\DIY.png)
 
 ##### 个人中心
 
-![个人中心](C:\Users\hanbai\Desktop\微信小程序开发集合\个人中心.png)
+![个人中心](\个人中心.png)
 
 ### 
