@@ -1,2 +1,56 @@
 <!--pages/home/home.wxml-->
-<text>pages/home/home.wxml</text>
+
+    <van-row class="user-link">
+      <van-col span="6">
+        <van-icon name="pending-payment"></van-icon>
+        待付款
+      </van-col>
+      <van-col span="6">
+        <van-icon name="pending-orders"></van-icon>
+        待接单
+      </van-col>
+      <van-col span="6">
+        <van-icon name="pending-deliver"></van-icon>
+        待发货
+      </van-col>
+      <van-col span="6">
+        <van-icon name="logistics"></van-icon>
+        待收货
+      </van-col>
+    </van-row>
+<van-cell value="" icon="user-o" is-link>
+  <view slot="title">
+    <view class="van-cell-text">个人信息</view>
+    <van-tag type="danger"></van-tag>
+  </view>
+</van-cell>
+<van-cell value="" icon="gem-o" is-link>
+  <view slot="title">
+    <view class="van-cell-text">极客等级</view>
+    <van-tag type="danger">LV1</van-tag>
+  </view>
+</van-cell>
+<van-cell value="" icon="coupon-o" is-link>
+  <view slot="title">
+    <view class="van-cell-text">优惠券</view>
+    <van-tag type="danger"></van-tag>
+  </view>
+</van-cell>
+<van-cell value="" icon="chat-o" is-link>
+  <view slot="title">
+    <view class="van-cell-text">意见反馈</view>
+    <van-tag type="danger"></van-tag>
+  </view>
+</van-cell>
+<van-cell value="" icon="service-o" is-link>
+  <view slot="title">
+    <view class="van-cell-text">联系客服</view>
+    <van-tag type="danger"></van-tag>
+  </view>
+</van-cell>
+<van-cell
+  is-link
+  title="单元格"
+  link-type="navigateTo"
+  url="/pages/dashboard/index"
+/>

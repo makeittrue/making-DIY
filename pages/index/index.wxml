@@ -1,10 +1,47 @@
-<van-card
-  card-class="test-card"
-  thumb="https://img.yzcdn.cn/upload_files/2016/11/25/FpqPXlrMRjKwJs8VdTu3ZDJCj4j5.jpeg?imageView2/2/w/200/h/200/q/90/format/jpeg"
-  price="999.99"
-  title="红烧牛肉【虚拟商品】【有库存】【有sku】"
-  num="2"
-  desc="3000克 50%"
-  status="已发货"
+<swiper indicator-dots='{{true}}'>
+<swiper-item>
+<image class="swiper-image"
+src="http://img30.360buyimg.com/diytwo/jfs/t1/15638/13/7001/78691/5c652ad6Ef5f03749/bcf11ba3d79877e3.jpg"></image>
+</swiper-item>
+<swiper-item>
+<image class="swiper-image"
+src="http://img30.360buyimg.com/diytwo/jfs/t1/18637/17/9551/242163/5c7f9aeeEfd43809e/9e3fbcb634dfd615.jpg"></image>
+</swiper-item>
+<swiper-item>
+<image class="swiper-image"
+src="http://img30.360buyimg.com/diytwo/jfs/t1/25899/12/14126/245016/5ca57719E9c0fa044/12381c3008224d03.jpg"></image>
+</swiper-item>
+<swiper-item>
+<image class="swiper-image"
+src="http://img30.360buyimg.com/diytwo/jfs/t1/33101/15/1912/727530/5caac458E9bac6532/af2706e9b6f3b752.jpg"></image>
+</swiper-item>
+</swiper>
+<van-notice-bar
+  wrapable
+  scrollable="false"
+  text="数据与价格都来自于京东商城，更新频率随心情而定~"
+/>
+<van-search
+  value="{{ value }}"
+  placeholder="请输入搜索关键词"
+  use-action-slot
+  bind:search="onSearch"
+  field-class="border"
 >
-</van-card>
+  <view slot="action" bind:tap="onSearch">搜索</view>
+  
+</van-search>
+<van-tree-select
+  items="{{ items }}"
+  main-active-index="{{ mainActiveIndex }}"
+  active-id="{{ activeId }}"
+  bind:click-nav="onClickNav"
+  bind:click-item="onClickItem"
+/>
+<van-button size="large"
+color="linear-gradient(to right, #000000, #e74c3c)" class="buttonsize" icon="star-o" type="primary" bindtap="goToTalkPage">推荐方案</van-button>
+<van-button size="large"
+color="linear-gradient(to right, #780206, #061161)" icon="filter-o" type="primary">配件分类</van-button>
+<van-button size="large"
+color="linear-gradient(to right, #e74c3c, #000000)" icon="fire-o" type="primary">热门测评</van-button>
+<van-divider contentPosition="center" customStyle="color: #000000;border-color: #000000;font-size: 14px;"dashed>骚的不行的底线</van-divider>

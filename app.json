@@ -3,7 +3,8 @@
     "pages/index/index",
     "pages/detail/detail",
     "pages/monitor/monitor",
-    "pages/home/home"
+    "pages/home/home",
+    "pages/test/test"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -14,13 +15,39 @@
   "tabBar": {
     "list": [{
       "pagePath": "pages/index/index",
-      "text": "首页"
+      "text": "首页",
+      "iconPath": "icon/account.png",
+      "selectedIconPath": "icon/account.png"
     },{"pagePath": "pages/monitor/monitor",
-    "text": "DIY"
+    "text": "DIY",
+    "iconPath": "icon/laptop-check.png",
+    "selectedIconPath": "icon/laptop-check.png"
   },{
     "pagePath": "pages/home/home",
-    "text": "个人中心"
+    "text": "个人中心",
+    "iconPath":"icon/home.png",
+    "selectedIconPath":"icon/home.png"
   }]
   },
-  "sitemapLocation": "sitemap.json"
+  "sitemapLocation": "sitemap.json",
+    "usingComponents": {
+      "van-card": "dist/card/index",
+      "van-button": "dist/button/index",
+      "van-icon": "dist/icon/index",
+      "van-grid": "dist/grid/index",
+      "van-grid-item": "dist/grid-item/index",
+      "van-search": "dist/search/index",
+      "van-notice-bar": "dist/notice-bar/index",
+      "van-submit-bar": "dist/submit-bar/index",
+      "van-panel": "dist/panel/index",
+      "van-cell": "dist/cell/index",
+      "van-cell-group": "dist/cell-group/index",
+      "van-tree-select": "dist/tree-select/index",
+      "van-divider": "dist/divider/index",
+      "van-tabbar": "dist/tabbar/index",
+      "van-tabbar-item": "dist/tabbar-item/index",
+      "van-row": "dist/row/index",
+      "van-col": "dist/col/index"
+    }
+
 }

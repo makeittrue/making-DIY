@@ -4,7 +4,8 @@ Page({
    * 页面的初始数据
    */
   data: {
-    
+    mainActiveIndex: 0,
+    activeId: null
   },
 
   /**
@@ -61,5 +62,19 @@ Page({
    */
   onShareAppMessage: function () {
     
+  },
+   onClickNav({ detail = {} }) {
+    this.setData({
+      mainActiveIndex: detail.index || 0
+    });
+  },
+
+  onClickItem({ detail = {} }) {
+    const activeId = this.data.activeId === detail.id ? null : detail.id;
+
+    this.setData({ activeId });
+  },
+  goToTalkPage:function(param){
+    wx.navigateTo({ url: '/pages/test/test', })
   }
 })

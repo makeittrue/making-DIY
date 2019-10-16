@@ -1,0 +1,43 @@
+<!--pages/test/test.wxml-->
+<view>scroll-view 纵向滚动示例</view>
+<view class='out'>
+  <scroll-view scroll-y scroll-into-view='item2'>
+    <view id='item1' class='item'>
+      <view class='inner'>1</view>
+    </view>
+    <view id='item2' class='item'>
+      <view class='inner'>2</view>
+    </view>
+    <view class='item'>
+      <view class='inner'>3</view>
+    </view>
+    <view class='item'>
+      <view class='inner'>4</view>
+    </view>
+      <view class='item'>
+      <view class='inner'>5</view>
+    </view>  <view class='item'>
+      <view class='inner'>6</view>
+    </view>  <view class='item'>
+      <view class='inner'>7</view>
+    </view>  <view class='item'>
+      <view class='inner'>8</view>
+    </view>  <view class='item'>
+      <view class='inner'>9</view>
+    </view>
+  </scroll-view>
+  <van-submit-bar
+  price="{{ 1200000 }}"
+  button-text="完成装机"
+  bind:submit="onClickButton"
+  tip="{{ true }}"
+  safe-area-inset-bottom= "true"
+>
+  <van-tag type="primary">鲁大师跑分：560000</van-tag>
+  <view slot="tip">
+    确认配置单， <text>如无误点击确认生成结果。</text>
+  </view>
+</van-submit-bar>
+
+
+</view>

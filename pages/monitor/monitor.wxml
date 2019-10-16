@@ -1,2 +1,79 @@
 <!--pages/monitor/monitor.wxml-->
-<text>pages/monitor/monitor.wxml</text>
+<van-card
+  num="1"
+  tag="cpu"
+  price="2899.00"
+  desc="8t16c"
+  title="AMD 锐龙3800x"
+  thumb="https://img10.360buyimg.com/n7/jfs/t1/47926/35/3413/522060/5d12debfEb33dc23d/5fd4e86e41263ace.jpg"
+>
+  <view slot="footer">
+    <van-button size="mini">修改</van-button>
+    <van-button size="mini">移除</van-button>
+  </view>
+</van-card>
+<van-card
+  num="1"
+  tag="显卡"
+  price="5699.00"
+  desc="显存类型：GDDR6"
+  title="七彩虹 RTX2080super advanced OC"
+  thumb="https://img12.360buyimg.com/n7/jfs/t1/61583/11/7056/114235/5d512f49E6e100e77/021c7516606ae3f6.jpg"
+>
+  <view slot="footer">
+    <van-button size="mini">修改</van-button>
+    <van-button size="mini">移除</van-button>
+  </view>
+</van-card>
+<van-card
+  num="1"
+  tag="内存条"
+  price="999.00"
+  desc="DDR4 3600频率"
+  title="芝奇16GB(8*2)套装 焰光戟RGB灯条"
+  thumb="https://img12.360buyimg.com/n7/jfs/t1/45750/2/9948/103805/5d721569Ed4b5fdbb/38faacb7c2d46afb.jpg"
+>
+  <view slot="footer">
+    <van-button size="mini">修改</van-button>
+    <van-button size="mini">移除</van-button>
+  </view>
+</van-card>
+<van-card
+  num="1"
+  tag="cpu"
+  price="2899.00"
+  desc="8t16c"
+  title="AMD 锐龙3800x"
+  thumb="https://img10.360buyimg.com/n7/jfs/t1/47926/35/3413/522060/5d12debfEb33dc23d/5fd4e86e41263ace.jpg"
+>
+  <view slot="footer">
+    <van-button size="mini">修改</van-button>
+    <van-button size="mini">移除</van-button>
+  </view>
+</van-card>
+<van-card
+  num="1"
+  tag="主板"
+  price="2199.00"
+  desc="x570"
+  title="华硕(ASUS)PRIME X570-PRO主板"
+  thumb="https://img12.360buyimg.com/n7/jfs/t1/71912/4/4115/617387/5d255607Eea907d7e/f0e9d1ed2ee4bd48.jpg"
+>
+  <view slot="footer">
+    <van-button size="mini">修改</van-button>
+    <van-button size="mini">移除</van-button>
+  </view>
+</van-card>
+<van-submit-bar
+  price="{{ 1200000 }}"
+  button-text="完成装机"
+  bind:submit="onClickButton"
+  tip="{{ true }}"
+  safe-area-inset-bottom= "true"
+>
+  <van-tag type="primary">鲁大师跑分：560000</van-tag>
+  <view slot="tip">
+    确认配置单， <text>如无误点击确认生成结果。</text>
+  </view>
+</van-submit-bar>
+

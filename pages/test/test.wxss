@@ -1,0 +1,15 @@
+/* pages/test/test.wxss */
+.out {
+  background: #ddd;
+}
+/**设置高度就会出现纵向滚动条**/
+.out scroll-view{
+    height: 60%;
+}
+
+.out .item {
+  height: 100px;
+  border: 1px solid red;
+  background: white;
+  margin: 10px;
+}
