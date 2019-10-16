@@ -1,19 +1,19 @@
 <swiper indicator-dots='{{true}}'>
-<swiper-item>
-<image class="swiper-image"
-src="http://img30.360buyimg.com/diytwo/jfs/t1/15638/13/7001/78691/5c652ad6Ef5f03749/bcf11ba3d79877e3.jpg"></image>
+<swiper-item >
+<image class="swiper-image" 
+src="http://img30.360buyimg.com/diytwo/jfs/t1/15638/13/7001/78691/5c652ad6Ef5f03749/bcf11ba3d79877e3.jpg" bindtap="swipclick"></image>
 </swiper-item>
 <swiper-item>
 <image class="swiper-image"
-src="http://img30.360buyimg.com/diytwo/jfs/t1/18637/17/9551/242163/5c7f9aeeEfd43809e/9e3fbcb634dfd615.jpg"></image>
+src="http://img30.360buyimg.com/diytwo/jfs/t1/18637/17/9551/242163/5c7f9aeeEfd43809e/9e3fbcb634dfd615.jpg" bindtap="swipclick"></image>
 </swiper-item>
 <swiper-item>
 <image class="swiper-image"
-src="http://img30.360buyimg.com/diytwo/jfs/t1/25899/12/14126/245016/5ca57719E9c0fa044/12381c3008224d03.jpg"></image>
+src="http://img30.360buyimg.com/diytwo/jfs/t1/25899/12/14126/245016/5ca57719E9c0fa044/12381c3008224d03.jpg" bindtap="swipclick"></image>
 </swiper-item>
 <swiper-item>
 <image class="swiper-image"
-src="http://img30.360buyimg.com/diytwo/jfs/t1/33101/15/1912/727530/5caac458E9bac6532/af2706e9b6f3b752.jpg"></image>
+src="http://img30.360buyimg.com/diytwo/jfs/t1/33101/15/1912/727530/5caac458E9bac6532/af2706e9b6f3b752.jpg" bindtap="swipclick"></image>
 </swiper-item>
 </swiper>
 <van-notice-bar

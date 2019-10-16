@@ -4,7 +4,8 @@
     "pages/detail/detail",
     "pages/monitor/monitor",
     "pages/home/home",
-    "pages/test/test"
+    "pages/test/test",
+    "pages/personal/personal"
   ],
   "window": {
     "backgroundTextStyle": "light",

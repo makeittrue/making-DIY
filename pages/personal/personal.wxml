@@ -1,0 +1,17 @@
+<!--pages/personal/personal.wxml-->
+<!-- <van-card
+  tag="热"
+  desc="装机帮扶站"
+  title="2019年10月装机推荐"
+  thumb="https://pic4.zhimg.com/v2-611683b20487389820ebd1603dd71b02_250x0.jpg "
+  thumb-link="https://zhuanlan.zhihu.com/p/84708788"
+>
+</van-card>
+<van-card
+  tag="Hot"
+  desc="组装市场行情推荐"
+  title="第505期 5500~8000高性价比组合方案"
+  thumb=" https://pic3.zhimg.com/v2-9da39905554e04bd9fb8c35edc806fae_250x0.jpg "
+>
+</van-card> -->
+<web-view src="https://zhuanlan.zhihu.com/p/85009698"></web-view>
