@@ -103,4 +103,14 @@ Page({
     })
     // console.log('222')
   }
+  // bindViewTap: function(){
+  //   wx.navigateTo({
+  //     url: '../index/index',
+  //   })
+  // },
+  // bindMyViewTap:function(){
+  //   wx.navigateTo({
+  //     url: '/pages/test/test',
+  //   })
+  // }
 })

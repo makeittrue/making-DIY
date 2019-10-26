@@ -1,4 +1,4 @@
-<swiper indicator-dots='{{true}}'>
+<swiper indicator-dots='{{true}}' autoplay="{{autoplay}}" interval="4000">
 <swiper-item >
 <image class="swiper-image" 
 src="http://img30.360buyimg.com/diytwo/jfs/t1/15638/13/7001/78691/5c652ad6Ef5f03749/bcf11ba3d79877e3.jpg" bindtap="swipclick"></image>

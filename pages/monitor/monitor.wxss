@@ -1,1 +1,5 @@
 /* pages/monitor/monitor.wxss */
+.item-container{
+  padding-bottom: 200rpx;
+  min-height: 800rpx;
+}

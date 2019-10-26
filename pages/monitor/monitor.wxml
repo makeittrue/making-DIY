@@ -1,4 +1,5 @@
 <!--pages/monitor/monitor.wxml-->
+<view class="item-container">
 <van-card
   num="1"
   tag="cpu"
@@ -64,6 +65,7 @@
     <van-button size="mini">移除</van-button>
   </view>
 </van-card>
+</view>
 <van-submit-bar
   price="{{ 1200000 }}"
   button-text="完成装机"

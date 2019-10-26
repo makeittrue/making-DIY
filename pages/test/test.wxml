@@ -1,5 +1,5 @@
 <!--pages/test/test.wxml-->
-<view>scroll-view 纵向滚动示例</view>
+<!-- <view>scroll-view 纵向滚动示例</view>
 <view class='out'>
   <scroll-view scroll-y scroll-into-view='item2'>
     <view id='item1' class='item'>
@@ -40,4 +40,4 @@
 </van-submit-bar>
 
 
-</view>
+</view> -->
