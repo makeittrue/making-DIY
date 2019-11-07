@@ -5,7 +5,8 @@
     "pages/monitor/monitor",
     "pages/home/home",
     "pages/test/test",
-    "pages/personal/personal"
+    "pages/personal/personal",
+    "pages/auth/login/login"
   ],
   "window": {
     "backgroundTextStyle": "light",

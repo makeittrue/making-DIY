@@ -1,23 +1,62 @@
 <!--pages/home/home.wxml-->
-
-    <van-row class="user-link">
+  <view class="userinfo">
+    <view>
+      <image class="avatar" src="{{userInfo.avatarUrl}}" mode="scaleToFill"></image>
+    </view>
+    <text class="username">{{userInfo.nickName}}</text>
+  </view>
+    <!-- 用户功能列表 -->
+<view class="user-link">
+    <van-row >
       <van-col span="6">
-        <van-icon name="pending-payment"></van-icon>
+        <van-button icon="paid" type="default"class="user-link.order-item" >
         待付款
-      </van-col>
+      </van-button>
+    </van-col > 
       <van-col span="6">
-        <van-icon name="pending-orders"></van-icon>
+        <van-button icon="bill-o" type="default" class="user-link.order-item">
         待接单
-      </van-col>
+        </van-button>
+    </van-col> 
       <van-col span="6">
-        <van-icon name="pending-deliver"></van-icon>
+        <van-button icon="free-postage" type="default" class="user-link.order-item">
         待发货
-      </van-col>
+        </van-button>
+    </van-col> 
       <van-col span="6">
-        <van-icon name="logistics"></van-icon>
+        <van-button icon="logistics" type="default" class="user-link.order-item">
         待收货
-      </van-col>
+        </van-button>
+    </van-col> 
     </van-row>
+</view>
+<!-- <view class='order-shortcut'>
+    <view class='item' bindtap='goOrder' data-type="0">
+      <image class="icon" src="/images/pay.png" background-size="cover"></image>
+      <view class='text'>待付款</view>
+    </view>
+    <view class='item' bindtap='goOrder' data-type="1">
+      <image class="icon" src="/images/form.png" background-size="cover"></image>
+      <view class='text'>待发货</view>
+    </view>
+    <view class='item' bindtap='goOrder' data-type="2">
+      <image class="icon" src="/images/deliver.png" background-size="cover"></image>
+      <view class='text'>待收货</view>
+    </view>
+    <view class='item' bindtap='goOrder' data-type="3">
+      <image class="icon" src="/images/cart.png" background-size="cover"></image>
+      <view class='text'>待评价</view>
+    </view>
+    <view class='item' bindtap='goOrder' data-type="99">
+      <image class="icon" src="/images/order/shouhou.png" background-size="cover"></image>
+      <view class='text'>退款/售后</view>
+    </view>
+  </view> -->
+
+
+
+
+
 <van-cell value="" icon="user-o" is-link>
   <view slot="title">
     <view class="van-cell-text">个人信息</view>

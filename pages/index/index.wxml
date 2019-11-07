@@ -31,6 +31,7 @@ src="http://img30.360buyimg.com/diytwo/jfs/t1/33101/15/1912/727530/5caac458E9bac
   <view slot="action" bind:tap="onSearch">搜索</view>
   
 </van-search>
+<view class="tuijian">
 <van-tree-select
   items="{{ items }}"
   main-active-index="{{ mainActiveIndex }}"
@@ -44,4 +45,5 @@ color="linear-gradient(to right, #000000, #e74c3c)" class="buttonsize" icon="sta
 color="linear-gradient(to right, #780206, #061161)" icon="filter-o" type="primary">配件分类</van-button>
 <van-button size="large"
 color="linear-gradient(to right, #e74c3c, #000000)" icon="fire-o" type="primary">热门测评</van-button>
+</view>
 <van-divider contentPosition="center" customStyle="color: #000000;border-color: #000000;font-size: 14px;"dashed>骚的不行的底线</van-divider>

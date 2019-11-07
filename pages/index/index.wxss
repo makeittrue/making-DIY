@@ -6,3 +6,6 @@
   width: 750rpx;
   align-items: center;
 }
+.tuijian{
+  min-height: 800rpx;
+}
